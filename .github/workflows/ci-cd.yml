@@ -19,12 +19,12 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd backend
+        cd task_backend_deploy
         npm install
 
     - name: Build backend app
       run: |
-        cd backend
+        cd task_backend_deploy
         npm run build
 
     # Burada deploy əlavə edə bilərsən
